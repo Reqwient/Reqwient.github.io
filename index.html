@@ -1,9 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    font-family:Arial, sans-serif;
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:90%;
+    max-width:500px;
+    text-align:center;
+}
+
+.avatar{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    object-fit:cover;
+    margin-bottom:20px;
+    border:3px solid #38bdf8;
+}
+
+h1{
+    margin-bottom:10px;
+}
+
+.subtitle{
+    color:#94a3b8;
+    margin-bottom:30px;
+}
+
+.link{
+    display:block;
+    text-decoration:none;
+    color:white;
+    background:#1e293b;
+    padding:18px;
+    margin:12px 0;
+    border-radius:12px;
+    transition:0.2s;
+    font-weight:bold;
+}
+
+.link:hover{
+    background:#38bdf8;
+    color:black;
+    transform:translateY(-2px);
+}
+
+.footer{
+    margin-top:30px;
+    color:#64748b;
+    font-size:0.9rem;
+}
+</style>
 </head>
+
 <body>
-  <h1>Hello World</h1>
+
+<div class="container">
+
+<img src="profile.jpg" alt="Profile" class="avatar">
+
+<h1>Your Name</h1>
+
+<p class="subtitle">
+Gameplay Programmer • Unreal Engine Developer
+</p>
+
+<a class="link" href="portfolio.html">
+🎮 Portfolio Website
+</a>
+
+<a class="link" href="https://github.com/yourusername">
+💻 GitHub
+</a>
+
+<a class="link" href="https://itch.io">
+🕹️ Play My Games
+</a>
+
+<a class="link" href="https://linkedin.com">
+📄 LinkedIn
+</a>
+
+<a class="link" href="mailto:your@email.com">
+✉️ Contact Me
+</a>
+
+<div class="footer">
+Built with GitHub Pages
+</div>
+
+</div>
+
 </body>
 </html>
